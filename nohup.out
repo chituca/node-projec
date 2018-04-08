@@ -1,0 +1,3823 @@
+29 Mar 17:42:06 - [info] 
+
+Welcome to Node-RED
+===================
+
+29 Mar 17:42:06 - [info] Node-RED version: v0.18.4
+29 Mar 17:42:06 - [info] Node.js  version: v9.6.1
+29 Mar 17:42:06 - [info] Linux 3.14.48-33.39.amzn1.x86_64 x64 LE
+29 Mar 17:42:06 - [info] Loading palette nodes
+[37m29 Mar 17:42:06 - [info] RedBot version:[39m [92m0.9.24[39m[90m (node-red-contrib-chatbot)[39m
+29 Mar 17:42:08 - [warn] ------------------------------------------------------
+29 Mar 17:42:08 - [warn] [node-red/rpi-gpio] Info : Ignoring Raspberry Pi specific node
+29 Mar 17:42:08 - [warn] [node-red-node-mongodb/mongo] 'mongodb in' already registered by module node-red-mongodb
+29 Mar 17:42:08 - [warn] ------------------------------------------------------
+29 Mar 17:42:08 - [info] Settings file  : /home/ec2-user/.node-red/settings.js
+29 Mar 17:42:08 - [info] User directory : /home/ec2-user/.node-red
+29 Mar 17:42:08 - [warn] Projects disabled : set editorTheme.projects.enabled=true to enable
+29 Mar 17:42:08 - [info] Flows file     : /home/ec2-user/.node-red/flows_ip-172-31-34-91.json
+29 Mar 17:42:08 - [error] Unable to listen on http://127.0.0.1:8080/
+29 Mar 17:42:08 - [error] Error: port in use
+29 Mar 17:42:58 - [info] 
+
+Welcome to Node-RED
+===================
+
+29 Mar 17:42:58 - [info] Node-RED version: v0.18.4
+29 Mar 17:42:58 - [info] Node.js  version: v9.6.1
+29 Mar 17:42:58 - [info] Linux 3.14.48-33.39.amzn1.x86_64 x64 LE
+29 Mar 17:42:58 - [info] Loading palette nodes
+[37m29 Mar 17:42:58 - [info] RedBot version:[39m [92m0.9.24[39m[90m (node-red-contrib-chatbot)[39m
+29 Mar 17:43:00 - [warn] ------------------------------------------------------
+29 Mar 17:43:00 - [warn] [node-red/rpi-gpio] Info : Ignoring Raspberry Pi specific node
+29 Mar 17:43:00 - [warn] [node-red-node-mongodb/mongo] 'mongodb in' already registered by module node-red-mongodb
+29 Mar 17:43:00 - [warn] ------------------------------------------------------
+29 Mar 17:43:00 - [info] Settings file  : /home/ec2-user/.node-red/settings.js
+29 Mar 17:43:00 - [info] User directory : /home/ec2-user/.node-red
+29 Mar 17:43:00 - [warn] Projects disabled : set editorTheme.projects.enabled=true to enable
+29 Mar 17:43:00 - [info] Flows file     : /home/ec2-user/.node-red/flows_ip-172-31-34-91.json
+29 Mar 17:43:00 - [info] Server now running at http://127.0.0.1:8080/
+29 Mar 17:43:00 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+29 Mar 17:43:00 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+29 Mar 22:02:06 - [info] 
+
+Welcome to Node-RED
+===================
+
+29 Mar 22:02:06 - [info] Node-RED version: v0.18.4
+29 Mar 22:02:06 - [info] Node.js  version: v9.6.1
+29 Mar 22:02:06 - [info] Linux 3.14.48-33.39.amzn1.x86_64 x64 LE
+29 Mar 22:02:07 - [info] Loading palette nodes
+[37m29 Mar 22:02:07 - [info] RedBot version:[39m [92m0.9.24[39m[90m (node-red-contrib-chatbot)[39m
+29 Mar 22:02:09 - [warn] ------------------------------------------------------
+29 Mar 22:02:09 - [warn] [node-red/rpi-gpio] Info : Ignoring Raspberry Pi specific node
+29 Mar 22:02:09 - [warn] [node-red-node-mongodb/mongo] 'mongodb in' already registered by module node-red-mongodb
+29 Mar 22:02:09 - [warn] ------------------------------------------------------
+29 Mar 22:02:09 - [info] Settings file  : /home/ec2-user/.node-red/settings.js
+29 Mar 22:02:09 - [info] User directory : /home/ec2-user/.node-red
+29 Mar 22:02:09 - [warn] Projects disabled : set editorTheme.projects.enabled=true to enable
+29 Mar 22:02:09 - [info] Flows file     : /home/ec2-user/.node-red/flows_ip-172-31-34-91.json
+29 Mar 22:02:09 - [info] Server now running at http://127.0.0.1:8080/
+29 Mar 22:02:09 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+29 Mar 22:02:09 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+Verifying Facebook Messenger token "1c8fc030.c52ea", should be "1c8fc030.c52ea"
+Token verified.
+29 Mar 22:08:27 - [info] 
+
+Welcome to Node-RED
+===================
+
+29 Mar 22:08:27 - [info] Node-RED version: v0.18.4
+29 Mar 22:08:27 - [info] Node.js  version: v9.6.1
+29 Mar 22:08:27 - [info] Linux 3.14.48-33.39.amzn1.x86_64 x64 LE
+29 Mar 22:08:27 - [info] Loading palette nodes
+[37m29 Mar 22:08:28 - [info] RedBot version:[39m [92m0.9.24[39m[90m (node-red-contrib-chatbot)[39m
+29 Mar 22:08:29 - [warn] ------------------------------------------------------
+29 Mar 22:08:29 - [warn] [node-red/rpi-gpio] Info : Ignoring Raspberry Pi specific node
+29 Mar 22:08:29 - [warn] [node-red-node-mongodb/mongo] 'mongodb in' already registered by module node-red-mongodb
+29 Mar 22:08:29 - [warn] ------------------------------------------------------
+29 Mar 22:08:29 - [info] Settings file  : /home/ec2-user/.node-red/settings.js
+29 Mar 22:08:29 - [info] User directory : /home/ec2-user/.node-red
+29 Mar 22:08:29 - [warn] Projects disabled : set editorTheme.projects.enabled=true to enable
+29 Mar 22:08:29 - [info] Flows file     : /home/ec2-user/.node-red/flows_ip-172-31-34-91.json
+29 Mar 22:08:29 - [info] Server now running at http://127.0.0.1:8080/
+29 Mar 22:08:29 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+29 Mar 22:08:29 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+29 Mar 22:10:06 - [info] Stopping flows
+29 Mar 22:10:13 - [info] Stopped flows
+29 Mar 22:10:13 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+29 Mar 22:10:13 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+4 Apr 14:13:34 - [info] 
+
+Welcome to Node-RED
+===================
+
+4 Apr 14:13:34 - [info] Node-RED version: v0.18.4
+4 Apr 14:13:34 - [info] Node.js  version: v9.6.1
+4 Apr 14:13:34 - [info] Linux 3.14.48-33.39.amzn1.x86_64 x64 LE
+4 Apr 14:13:35 - [info] Loading palette nodes
+[37m04 Apr 14:13:35 - [info] RedBot version:[39m [92m0.9.24[39m[90m (node-red-contrib-chatbot)[39m
+4 Apr 14:13:36 - [warn] ------------------------------------------------------
+4 Apr 14:13:36 - [warn] [node-red/rpi-gpio] Info : Ignoring Raspberry Pi specific node
+4 Apr 14:13:36 - [warn] [node-red-node-mongodb/mongo] 'mongodb in' already registered by module node-red-mongodb
+4 Apr 14:13:36 - [warn] ------------------------------------------------------
+4 Apr 14:13:36 - [info] Settings file  : /home/ec2-user/.node-red/settings.js
+4 Apr 14:13:36 - [info] User directory : /home/ec2-user/.node-red
+4 Apr 14:13:36 - [warn] Projects disabled : set editorTheme.projects.enabled=true to enable
+4 Apr 14:13:36 - [info] Flows file     : /home/ec2-user/.node-red/flows_ip-172-31-34-91.json
+4 Apr 14:13:36 - [info] Server now running at http://127.0.0.1:8080/
+4 Apr 14:13:37 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+4 Apr 14:13:37 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+Verifying Facebook Messenger token "1c8fc030.c52ea", should be "1c8fc030.c52ea"
+Token verified.
+8 Apr 00:09:14 - [info] 
+
+Welcome to Node-RED
+===================
+
+8 Apr 00:09:14 - [info] Node-RED version: v0.18.4
+8 Apr 00:09:14 - [info] Node.js  version: v9.6.1
+8 Apr 00:09:14 - [info] Linux 3.14.48-33.39.amzn1.x86_64 x64 LE
+8 Apr 00:09:14 - [info] Loading palette nodes
+[37m08 Apr 00:09:14 - [info] RedBot version:[39m [92m0.9.24[39m[90m (node-red-contrib-chatbot)[39m
+8 Apr 00:09:16 - [warn] ------------------------------------------------------
+8 Apr 00:09:16 - [warn] [node-red/rpi-gpio] Info : Ignoring Raspberry Pi specific node
+8 Apr 00:09:16 - [warn] [node-red-node-mongodb/mongo] 'mongodb in' already registered by module node-red-mongodb
+8 Apr 00:09:16 - [warn] ------------------------------------------------------
+8 Apr 00:09:16 - [info] Settings file  : /home/ec2-user/.node-red/settings.js
+8 Apr 00:09:16 - [info] User directory : /home/ec2-user/.node-red
+8 Apr 00:09:16 - [warn] Projects disabled : set editorTheme.projects.enabled=true to enable
+8 Apr 00:09:16 - [info] Flows file     : /home/ec2-user/.node-red/flows_ip-172-31-34-91.json
+8 Apr 00:09:16 - [info] Server now running at http://127.0.0.1:8080/
+8 Apr 00:09:16 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 00:09:16 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+Verifying Facebook Messenger token "1c8fc030.c52ea", should be "1c8fc030.c52ea"
+Token verified.
+8 Apr 00:36:32 - [info] Stopping flows
+8 Apr 00:36:36 - [info] Stopped flows
+8 Apr 00:36:36 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 00:36:36 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+8 Apr 00:38:27 - [info] Stopping flows
+8 Apr 00:38:30 - [info] Stopped flows
+8 Apr 00:38:30 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 00:38:31 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523147957313
+message: 
+  mid:  mid.$cAACM2r9d7wxo0_asQViorFjlMRTx
+  seq:  30363
+  text: Habitação
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:39:17 GMT+0000
+transport: facebook
+inbound:   true
+content:   Habitação
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: Como quer iniciar seu atendimento? Escolha uma das opções para encontrar um financiamento que é a sua cara.
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Valor do Imóvel
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://imagens.revista.zapcorp.com.br/wp-content/uploads/2018/01/financiamento.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor do Imóvel
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor do Financiamento
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.chavesnamao.com.br/noticias/wp-content/uploads/2015/12/o-imovel-desejado-cabe-no-seu-bolso-confira-5-dicas-para-n%C3%A3o-se-endividar.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor do Financiamento
+        value:  Financiamento
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor da Prestação
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.clickhabitacao.com.br/wp-content/uploads/2016/05/diminuir-prestacao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor da Prestacao
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor da Renda
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.mixvale.com.br/wp-content/uploads/2018/02/dinheiro-1-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor da Renda
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523147970618
+message: 
+  mid:  mid.$cAACM2r9d7wxo0_bgOliorGY0UOft
+  seq:  30368
+  text: Registrar imóvel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:39:30 GMT+0000
+transport: facebook
+inbound:   true
+content:   Registrar imóvel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      inline-buttons
+name:      Novo/Usado
+content:   Por enquanto, só consigo fazer uma simulação para imóvel residencial novo ou usuado, por favor, selecione a melhor opção para você.
+chatId:    1418881124908214
+messageId: null
+buttons: 
+  - 
+    type:   postback
+    label:  NOVO
+    value:  0.8
+    answer: 
+    alert:  false
+    style:  danger
+  - 
+    type:   postback
+    label:  USADO
+    value:  0.5
+    answer: 
+    alert:  false
+    style:  danger
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523148004305
+message: 
+  mid:  mid.$cAACM2r9d7wxo0_dj0ViorIcZ9l6a
+  seq:  30371
+  text: Registrar Imóvel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:40:04 GMT+0000
+transport: facebook
+inbound:   true
+content:   Registrar Imóvel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Washington,
+    Digite o valor do imóvel, por favor!
+    (Ex: 180000)
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+8 Apr 00:53:34 - [info] Stopping flows
+8 Apr 00:53:37 - [info] Stopped flows
+8 Apr 00:53:37 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 00:53:37 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523148828877
+message: 
+  mid:  mid.$cAACM2r9d7wxo1AP4zVior6xLAqxs
+  seq:  30374
+  text: X
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:53:48 GMT+0000
+transport: facebook
+inbound:   true
+content:   X
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      inline-buttons
+name:      Novo/Usado
+content:   Por enquanto, só consigo fazer uma simulação para imóvel residencial novo ou usuado, por favor, selecione a melhor opção para você.
+chatId:    1418881124908214
+messageId: null
+buttons: 
+  - 
+    type:   postback
+    label:  NOVO
+    value:  0.8
+    answer: 
+    alert:  false
+    style:  danger
+  - 
+    type:   postback
+    label:  USADO
+    value:  0.5
+    answer: 
+    alert:  false
+    style:  danger
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523148990003
+message: 
+  mid:  mid.$cAACM2r9d7wxo1AZuM1iosEmbm461
+  seq:  30377
+  text: Sair
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:56:30 GMT+0000
+transport: facebook
+inbound:   true
+content:   Sair
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Obrigado por ter entrado em contato com a Caixa! 
+     :D Fiquei muito feliz em receber você nesse canal, até a próxima. <3
+     
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523149001674
+sender: 
+  id: 1418881124908214
+message: 
+  text: Habitação
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:56:41 GMT+0000
+transport: facebook
+inbound:   true
+content:   Habitação
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: Como quer iniciar seu atendimento? Escolha uma das opções para encontrar um financiamento que é a sua cara.
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Valor do Imóvel
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://imagens.revista.zapcorp.com.br/wp-content/uploads/2018/01/financiamento.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor do Imóvel
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor do Financiamento
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.chavesnamao.com.br/noticias/wp-content/uploads/2015/12/o-imovel-desejado-cabe-no-seu-bolso-confira-5-dicas-para-n%C3%A3o-se-endividar.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor do Financiamento
+        value:  Financiamento
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor da Prestação
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.clickhabitacao.com.br/wp-content/uploads/2016/05/diminuir-prestacao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor da Prestacao
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor da Renda
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.mixvale.com.br/wp-content/uploads/2018/02/dinheiro-1-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor da Renda
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523149037215
+sender: 
+  id: 1418881124908214
+message: 
+  text: Imovel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:57:17 GMT+0000
+transport: facebook
+inbound:   true
+content:   Imovel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Washington,
+    Digite o valor do imóvel, por favor!
+    (Ex: 180000)
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523149045591
+message: 
+  mid:  mid.$cAACM2r9d7wxo1AdHV1iosH_uvnnN
+  seq:  30392
+  text: 180000
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:57:25 GMT+0000
+transport: facebook
+inbound:   true
+content:   180000
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Agora, me informe a sua data de nascimento.
+    (Ex. 28/03/1980)
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523149058960
+message: 
+  mid:  mid.$cAACM2r9d7wxo1Ad7kFiosIz8HD39
+  seq:  30395
+  text: 21/09/1978
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:57:38 GMT+0000
+transport: facebook
+inbound:   true
+content:   21/09/1978
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Antes de fazer a sua simulação, preciso saber onde você quer comprar o seu imóvel?
+    
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523149077315
+message: 
+  mid:  mid.$cAACM2r9d7wxo1AfDQ1iosJ786MnP
+  seq:  30398
+  text: Brasília
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:57:57 GMT+0000
+transport: facebook
+inbound:   true
+content:   Brasília
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      inline-buttons
+name:      Novo/Usado
+content:   Por enquanto, só consigo fazer uma simulação para imóvel residencial novo ou usuado, por favor, selecione a melhor opção para você.
+chatId:    1418881124908214
+messageId: null
+buttons: 
+  - 
+    type:   postback
+    label:  NOVO
+    value:  0.8
+    answer: 
+    alert:  false
+    style:  danger
+  - 
+    type:   postback
+    label:  USADO
+    value:  0.5
+    answer: 
+    alert:  false
+    style:  danger
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523149095785
+sender: 
+  id: 1418881124908214
+message: 
+  text: 0.8
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:58:15 GMT+0000
+transport: facebook
+inbound:   true
+content:   0.8
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    por favor, aguarde um pouquinho, estou processando suas informações...
+    ;-)
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    
+    Resultado da Simulação
+    
+    Valor do imóvel : R$ 180.000,00
+    Valor da entrada: R$ 36.000,00
+    Valor do subsídio : 0
+    Valor do financiamento: R$ 144.000,00
+    Valor da prestação: R$ 1.440,37
+    Prazo em meses: 360
+    Categoria do imóvel: Novo
+    Taxa Juros Nominal/Ano:  8.16%
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      inline-buttons
+name:      PRO/Não
+content: 
+  """
+    Washington,
+    se voce já possui 03 anos de trabalho sob regime do FGTS, somando todos os períodos trabalhados, posso tentar fazer uma nova simulação, nas condições do PRÓ-COTISTA FGTS?
+  """
+chatId:    1418881124908214
+messageId: null
+buttons: 
+  - 
+    type:   postback
+    label:  SIM
+    value:  PRO
+    answer: 
+    alert:  false
+    style:  default
+  - 
+    type:   postback
+    label:  NÃO
+    value:  Não
+    answer: 
+    alert:  false
+    style:  
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523149110077
+sender: 
+  id: 1418881124908214
+message: 
+  text: Não
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:58:30 GMT+0000
+transport: facebook
+inbound:   true
+content:   Não
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Obrigado por ter entrado em contato com a Caixa! 
+     :D Fiquei muito feliz em receber você nesse canal, até a próxima. <3
+     
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523149148783
+sender: 
+  id: 1418881124908214
+message: 
+  text: Habitação
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:59:08 GMT+0000
+transport: facebook
+inbound:   true
+content:   Habitação
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: Como quer iniciar seu atendimento? Escolha uma das opções para encontrar um financiamento que é a sua cara.
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Valor do Imóvel
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://imagens.revista.zapcorp.com.br/wp-content/uploads/2018/01/financiamento.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor do Imóvel
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor do Financiamento
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.chavesnamao.com.br/noticias/wp-content/uploads/2015/12/o-imovel-desejado-cabe-no-seu-bolso-confira-5-dicas-para-n%C3%A3o-se-endividar.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor do Financiamento
+        value:  Financiamento
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor da Prestação
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.clickhabitacao.com.br/wp-content/uploads/2016/05/diminuir-prestacao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor da Prestacao
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor da Renda
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.mixvale.com.br/wp-content/uploads/2018/02/dinheiro-1-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor da Renda
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523149163902
+sender: 
+  id: 1418881124908214
+message: 
+  text: Imovel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:59:23 GMT+0000
+transport: facebook
+inbound:   true
+content:   Imovel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Washington,
+    Digite o valor do imóvel, por favor!
+    (Ex: 180000)
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523149173183
+sender: 
+  id: 1418881124908214
+message: 
+  text: Imovel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:59:33 GMT+0000
+transport: facebook
+inbound:   true
+content:   Imovel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Washington,
+    Digite o valor do imóvel, por favor!
+    (Ex: 180000)
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523149184640
+sender: 
+  id: 1418881124908214
+message: 
+  text: Imovel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 00:59:44 GMT+0000
+transport: facebook
+inbound:   true
+content:   Imovel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Washington,
+    Digite o valor do imóvel, por favor!
+    (Ex: 180000)
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+8 Apr 01:02:20 - [info] Stopping flows
+8 Apr 01:02:20 - [info] Stopped flows
+8 Apr 01:02:20 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 01:02:21 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523149343537
+message: 
+  mid:  mid.$cAACM2r9d7wxo1AvTMViosaLg-jkH
+  seq:  30433
+  text: Sair
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 01:02:23 GMT+0000
+transport: facebook
+inbound:   true
+content:   Sair
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Obrigado por ter entrado em contato com a Caixa! 
+     :D Fiquei muito feliz em receber você nesse canal, até a próxima. <3
+     
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523149352719
+message: 
+  mid:  mid.$cAACM2r9d7wxo1Av3D1iosavlRdGh
+  seq:  30437
+  text: Iniciar
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 01:02:32 GMT+0000
+transport: facebook
+inbound:   true
+content:   Iniciar
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Olá , tudo bem?
+    Sou o Neo, Assistente Virtual da CAIXA, estou aqui para auxiliá-lo no que precisar! :)
+    quando achar necessário, pode digitar:
+     - Iniciar, para voltarmos ao início
+     - Sair, para encerramos o assunto.
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+8 Apr 01:03:44 - [info] Stopping flows
+8 Apr 01:03:47 - [info] Stopped flows
+8 Apr 01:03:47 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 01:03:47 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523149430907
+message: 
+  mid:  mid.$cAACM2r9d7wxo1A0oe1iosfhESqrs
+  seq:  30442
+  text: Menu
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 01:03:50 GMT+0000
+transport: facebook
+inbound:   true
+content:   Menu
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Olá , tudo bem?
+    Sou o Neo, Assistente Virtual da CAIXA, estou aqui para auxiliá-lo no que precisar! :)
+    Quando achar necessário, pode digitar:
+    
+     - Iniciar, para voltarmos ao início
+     - Sair, para encerramos o assunto.
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+8 Apr 01:04:18 - [info] Stopping flows
+8 Apr 01:04:28 - [info] Stopped flows
+8 Apr 01:04:28 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 01:04:28 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+8 Apr 01:04:42 - [info] Stopping flows
+8 Apr 01:04:49 - [info] Stopped flows
+8 Apr 01:04:49 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 01:04:49 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523149496184
+message: 
+  mid:  mid.$cAACM2r9d7wxo1A4neFiosjgH050C
+  seq:  30447
+  text: Iniciar
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 01:04:56 GMT+0000
+transport: facebook
+inbound:   true
+content:   Iniciar
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Olá , tudo bem?
+    Sou o Neo, Assistente Virtual da CAIXA, estou aqui para auxiliá-lo no que precisar! :)
+    
+    Quando achar necessário, pode digitar:
+    
+     - Iniciar, para voltarmos ao início
+    
+    - Sair, para encerramos o assunto.
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+8 Apr 01:05:28 - [info] Stopping flows
+8 Apr 01:05:30 - [info] Stopped flows
+8 Apr 01:05:30 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 01:05:30 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+8 Apr 11:09:59 - [info] 
+
+Welcome to Node-RED
+===================
+
+8 Apr 11:09:59 - [info] Node-RED version: v0.18.4
+8 Apr 11:09:59 - [info] Node.js  version: v9.6.1
+8 Apr 11:09:59 - [info] Linux 3.14.48-33.39.amzn1.x86_64 x64 LE
+8 Apr 11:09:59 - [info] Loading palette nodes
+[37m08 Apr 11:10:00 - [info] RedBot version:[39m [92m0.9.24[39m[90m (node-red-contrib-chatbot)[39m
+8 Apr 11:10:03 - [warn] ------------------------------------------------------
+8 Apr 11:10:03 - [warn] [node-red/rpi-gpio] Info : Ignoring Raspberry Pi specific node
+8 Apr 11:10:03 - [warn] [node-red-node-mongodb/mongo] 'mongodb in' already registered by module node-red-mongodb
+8 Apr 11:10:03 - [warn] ------------------------------------------------------
+8 Apr 11:10:03 - [info] Settings file  : /home/ec2-user/.node-red/settings.js
+8 Apr 11:10:03 - [info] User directory : /home/ec2-user/.node-red
+8 Apr 11:10:03 - [warn] Projects disabled : set editorTheme.projects.enabled=true to enable
+8 Apr 11:10:03 - [info] Flows file     : /home/ec2-user/.node-red/flows_ip-172-31-34-91.json
+8 Apr 11:10:03 - [info] Server now running at http://127.0.0.1:8080/
+8 Apr 11:10:03 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 11:10:03 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+Verifying Facebook Messenger token "1c8fc030.c52ea", should be "1c8fc030.c52ea"
+Token verified.
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186346253
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kBxDVipPsn_6wbw
+  seq:  30456
+  text: oi
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:19:06 GMT+0000
+transport: facebook
+inbound:   true
+content:   oi
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: Olá, tudo bem?
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186355151
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kCTz1ipPtLuuRRX
+  seq:  30461
+  text: tudo e você
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:19:15 GMT+0000
+transport: facebook
+inbound:   true
+content:   tudo e você
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: Tudo
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523186366134
+sender: 
+  id: 1418881124908214
+message: 
+  text: Loterias
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:19:26 GMT+0000
+transport: facebook
+inbound:   true
+content:   Loterias
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Ok, Washington! 
+    Qual jogo você deseja saber o resultado? 
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    MEGA-SENA
+    subtitle: confira o último resultado
+    imageUrl: https://s2.glbimg.com/uwPPBplT0WfaRGYLhKUAC6KE6p8=/0x0:1000x750/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/J/I/0Nxyq7QYi7kCbekaBQYA/img-3265.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  MEGA-SENA
+        value:  MEGA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    QUINA
+    subtitle: confira o último resultado
+    imageUrl: https://www.afolhahoje.com/loteria/wp-content/uploads/2018/03/02_Quina-1.png
+    buttons: 
+      - 
+        type:   postback
+        label:  QUINA
+        value:  QUINA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTOFÁCIL
+    subtitle: confira o último resultado
+    imageUrl: https://www.afolhahoje.com/loteria/wp-content/uploads/2018/03/N%C3%BAmeros-sorteados-na-Lotofacil-de-ontem-concurso-1634-de-sexta-feira-09-de-mar%C3%A7o.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTOFÁCIL
+        value:  LOTOFACIL
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTOMANIA
+    subtitle: confira o último resultado
+    imageUrl: https://i1.wp.com/blogdolago.com.br/wp-content/uploads/2018/01/lotomania.jpg?w=700
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTOMANIA
+        value:  LOTOMANIA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    TIMEMANIA
+    subtitle: confira o último resultado
+    imageUrl: http://portalcanaa.com.br/wp-content/uploads/2018/02/Novos-Volantes-Loterias-CAIXA-Timemania-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  TIMEMANIA
+        value:  TIMEMANIA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    DUPLA SENA
+    subtitle: confira o último resultado
+    imageUrl: http://portalcanaa.com.br/wp-content/uploads/2018/01/Dupla-Sena-Resultadlo-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  DUPLA SENA
+        value:  DUPLA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    FEDERAL
+    subtitle: confira o último resultado
+    imageUrl: https://www.afolhahoje.com/loteria/wp-content/uploads/2018/03/1-logo-caixa-transparente-696x361.png
+    buttons: 
+      - 
+        type:   postback
+        label:  FEDERAL
+        value:  FEDERAL
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTECA
+    subtitle: confira o último resultado
+    imageUrl: https://ganharnaloteria.com/blog/wp-content/uploads/2017/02/Loteca.gif
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTECA
+        value:  LOTECA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTOGOL
+    subtitle: confira o último resultado
+    imageUrl: http://2.bp.blogspot.com/-0PyO8ZslpOs/VDvYzeZoRAI/AAAAAAAAU4Q/jSObx0j5g3Q/s1600/bilhete%2Blotogl.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTOGOL
+        value:  LOTOGOL
+        answer: 
+        alert:  false
+        style:  default
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523186371346
+sender: 
+  id: 1418881124908214
+message: 
+  text: MEGA
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:19:31 GMT+0000
+transport: facebook
+inbound:   true
+content:   MEGA
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Acumulou!
+    concurso: 2029
+    resultado: 15-37-18-33-40-06
+    Acumulado próximo concurso:R$ 17.520.439,23
+    
+    A loteria que paga milhões para o acertador dos seis números sorteados.
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      inline-buttons
+name:      Botão Sim/Não
+content: 
+  """
+    Washington, deseja ver o resultado de jogos anteriores da 
+    Mega-Sena? :D
+  """
+chatId:    1418881124908214
+messageId: null
+buttons: 
+  - 
+    type:   postback
+    label:  Sim
+    value:  Sim
+    answer: 
+    alert:  false
+    style:  default
+  - 
+    type:   postback
+    label:  Não
+    value:  Não
+    answer: 
+    alert:  false
+    style:  primary
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186381922
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kD8YlipPu0VsSEi
+  seq:  30475
+  text: mega
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:19:41 GMT+0000
+transport: facebook
+inbound:   true
+content:   mega
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Acumulou!
+    concurso: 2029
+    resultado: 15-37-18-33-40-06
+    Acumulado próximo concurso:R$ 17.520.439,23
+    
+    A loteria que paga milhões para o acertador dos seis números sorteados.
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      inline-buttons
+name:      Botão Sim/Não
+content: 
+  """
+    Washington, deseja ver o resultado de jogos anteriores da 
+    Mega-Sena? :D
+  """
+chatId:    1418881124908214
+messageId: null
+buttons: 
+  - 
+    type:   postback
+    label:  Sim
+    value:  Sim
+    answer: 
+    alert:  false
+    style:  default
+  - 
+    type:   postback
+    label:  Não
+    value:  Não
+    answer: 
+    alert:  false
+    style:  primary
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186392475
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kElm1ipPvdguu6X
+  seq:  30481
+  text: quina
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:19:52 GMT+0000
+transport: facebook
+inbound:   true
+content:   quina
+
+8 Apr 11:19:53 - [warn] [http request:97eb5267.fd243] JSON parse error
+8 Apr 11:19:53 - [error] [function:Dados Mega] TypeError: Cannot read property 'ganhadores' of undefined
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523186400409
+sender: 
+  id: 1418881124908214
+message: 
+  text: Não
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:20:00 GMT+0000
+transport: facebook
+inbound:   true
+content:   Não
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Obrigado por ter entrado em contato com a Caixa! 
+     :D Fiquei muito feliz em receber você nesse canal, até a próxima. <3
+     
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186418472
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kGLKFipPxDH09jB
+  seq:  30488
+  text: quina
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:20:18 GMT+0000
+transport: facebook
+inbound:   true
+content:   quina
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Desculpe-me, não entendi... :(
+    vou enviar novamente a lista de assuntos:
+    
+     - Cartões
+     - Habitação
+     - Loterias
+     - PIS
+    
+    ou escolha a opção no menu abaixo!
+    Estou feliz em atendê-lo. ^_^
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186428001
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kGwYVipPxoJuEk6
+  seq:  30493
+  text: resultado de loterias
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:20:28 GMT+0000
+transport: facebook
+inbound:   true
+content:   resultado de loterias
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Ok, Washington! 
+    Qual jogo você deseja saber o resultado? 
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    MEGA-SENA
+    subtitle: confira o último resultado
+    imageUrl: https://s2.glbimg.com/uwPPBplT0WfaRGYLhKUAC6KE6p8=/0x0:1000x750/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/J/I/0Nxyq7QYi7kCbekaBQYA/img-3265.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  MEGA-SENA
+        value:  MEGA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    QUINA
+    subtitle: confira o último resultado
+    imageUrl: https://www.afolhahoje.com/loteria/wp-content/uploads/2018/03/02_Quina-1.png
+    buttons: 
+      - 
+        type:   postback
+        label:  QUINA
+        value:  QUINA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTOFÁCIL
+    subtitle: confira o último resultado
+    imageUrl: https://www.afolhahoje.com/loteria/wp-content/uploads/2018/03/N%C3%BAmeros-sorteados-na-Lotofacil-de-ontem-concurso-1634-de-sexta-feira-09-de-mar%C3%A7o.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTOFÁCIL
+        value:  LOTOFACIL
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTOMANIA
+    subtitle: confira o último resultado
+    imageUrl: https://i1.wp.com/blogdolago.com.br/wp-content/uploads/2018/01/lotomania.jpg?w=700
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTOMANIA
+        value:  LOTOMANIA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    TIMEMANIA
+    subtitle: confira o último resultado
+    imageUrl: http://portalcanaa.com.br/wp-content/uploads/2018/02/Novos-Volantes-Loterias-CAIXA-Timemania-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  TIMEMANIA
+        value:  TIMEMANIA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    DUPLA SENA
+    subtitle: confira o último resultado
+    imageUrl: http://portalcanaa.com.br/wp-content/uploads/2018/01/Dupla-Sena-Resultadlo-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  DUPLA SENA
+        value:  DUPLA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    FEDERAL
+    subtitle: confira o último resultado
+    imageUrl: https://www.afolhahoje.com/loteria/wp-content/uploads/2018/03/1-logo-caixa-transparente-696x361.png
+    buttons: 
+      - 
+        type:   postback
+        label:  FEDERAL
+        value:  FEDERAL
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTECA
+    subtitle: confira o último resultado
+    imageUrl: https://ganharnaloteria.com/blog/wp-content/uploads/2017/02/Loteca.gif
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTECA
+        value:  LOTECA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTOGOL
+    subtitle: confira o último resultado
+    imageUrl: http://2.bp.blogspot.com/-0PyO8ZslpOs/VDvYzeZoRAI/AAAAAAAAU4Q/jSObx0j5g3Q/s1600/bilhete%2Blotogl.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTOGOL
+        value:  LOTOGOL
+        answer: 
+        alert:  false
+        style:  default
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186465354
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kJCSlipPz6LOhC1
+  seq:  30498
+  text: Iniciar
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:21:05 GMT+0000
+transport: facebook
+inbound:   true
+content:   Iniciar
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Desculpe-me, não entendi... :(
+    vou enviar novamente a lista de assuntos:
+    
+     - Cartões
+     - Habitação
+     - Loterias
+     - PIS
+    
+    ou escolha a opção no menu abaixo!
+    Estou feliz em atendê-lo. ^_^
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186478127
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kJ0L1ipP0sFHs-Q
+  seq:  30503
+  text: Menu
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:21:18 GMT+0000
+transport: facebook
+inbound:   true
+content:   Menu
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Olá , tudo bem?
+    Sou o Neo, Assistente Virtual da CAIXA, estou aqui para auxiliá-lo no que precisar! :)
+    
+    Quando achar necessário, pode digitar:
+    
+     - Iniciar,  para voltarmos ao início
+    
+    - Sair,  para encerramos o assunto.
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186491348
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kKn1FipP1fvx_pL
+  seq:  30508
+  text: Resultado de Loterias
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:21:31 GMT+0000
+transport: facebook
+inbound:   true
+content:   Resultado de Loterias
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Ok, Washington! 
+    Qual jogo você deseja saber o resultado? 
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    MEGA-SENA
+    subtitle: confira o último resultado
+    imageUrl: https://s2.glbimg.com/uwPPBplT0WfaRGYLhKUAC6KE6p8=/0x0:1000x750/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/J/I/0Nxyq7QYi7kCbekaBQYA/img-3265.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  MEGA-SENA
+        value:  MEGA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    QUINA
+    subtitle: confira o último resultado
+    imageUrl: https://www.afolhahoje.com/loteria/wp-content/uploads/2018/03/02_Quina-1.png
+    buttons: 
+      - 
+        type:   postback
+        label:  QUINA
+        value:  QUINA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTOFÁCIL
+    subtitle: confira o último resultado
+    imageUrl: https://www.afolhahoje.com/loteria/wp-content/uploads/2018/03/N%C3%BAmeros-sorteados-na-Lotofacil-de-ontem-concurso-1634-de-sexta-feira-09-de-mar%C3%A7o.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTOFÁCIL
+        value:  LOTOFACIL
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTOMANIA
+    subtitle: confira o último resultado
+    imageUrl: https://i1.wp.com/blogdolago.com.br/wp-content/uploads/2018/01/lotomania.jpg?w=700
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTOMANIA
+        value:  LOTOMANIA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    TIMEMANIA
+    subtitle: confira o último resultado
+    imageUrl: http://portalcanaa.com.br/wp-content/uploads/2018/02/Novos-Volantes-Loterias-CAIXA-Timemania-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  TIMEMANIA
+        value:  TIMEMANIA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    DUPLA SENA
+    subtitle: confira o último resultado
+    imageUrl: http://portalcanaa.com.br/wp-content/uploads/2018/01/Dupla-Sena-Resultadlo-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  DUPLA SENA
+        value:  DUPLA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    FEDERAL
+    subtitle: confira o último resultado
+    imageUrl: https://www.afolhahoje.com/loteria/wp-content/uploads/2018/03/1-logo-caixa-transparente-696x361.png
+    buttons: 
+      - 
+        type:   postback
+        label:  FEDERAL
+        value:  FEDERAL
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTECA
+    subtitle: confira o último resultado
+    imageUrl: https://ganharnaloteria.com/blog/wp-content/uploads/2017/02/Loteca.gif
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTECA
+        value:  LOTECA
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    LOTOGOL
+    subtitle: confira o último resultado
+    imageUrl: http://2.bp.blogspot.com/-0PyO8ZslpOs/VDvYzeZoRAI/AAAAAAAAU4Q/jSObx0j5g3Q/s1600/bilhete%2Blotogl.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  LOTOGOL
+        value:  LOTOGOL
+        answer: 
+        alert:  false
+        style:  default
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186525060
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kMrhFipP3hbF097
+  seq:  30513
+  text: sair
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:22:05 GMT+0000
+transport: facebook
+inbound:   true
+content:   sair
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Desculpe-me, não entendi... :(
+    vou enviar novamente a lista de assuntos:
+    
+     - Cartões
+     - Habitação
+     - Loterias
+     - PIS
+    
+    ou escolha a opção no menu abaixo!
+    Estou feliz em atendê-lo. ^_^
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186542047
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kNt31ipP4ltqp47
+  seq:  30518
+  text: Financiamento habitação
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:22:22 GMT+0000
+transport: facebook
+inbound:   true
+content:   Financiamento habitação
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: Como quer iniciar seu atendimento? Escolha uma das opções para encontrar um financiamento que é a sua cara.
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Valor do Imóvel
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://imagens.revista.zapcorp.com.br/wp-content/uploads/2018/01/financiamento.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor do Imóvel
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor do Financiamento
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.chavesnamao.com.br/noticias/wp-content/uploads/2015/12/o-imovel-desejado-cabe-no-seu-bolso-confira-5-dicas-para-n%C3%A3o-se-endividar.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor do Financiamento
+        value:  Financiamento
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor da Prestação
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.clickhabitacao.com.br/wp-content/uploads/2016/05/diminuir-prestacao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor da Prestacao
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor da Renda
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.mixvale.com.br/wp-content/uploads/2018/02/dinheiro-1-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor da Renda
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186559291
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kOxO1ipP5o3T65r
+  seq:  30523
+  text: quero saber tudo que puder sobre o PIS
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:22:39 GMT+0000
+transport: facebook
+inbound:   true
+content:   quero saber tudo que puder sobre o PIS
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      inline-buttons
+name:      Novo/Usado
+content:   Por enquanto, só consigo fazer uma simulação para imóvel residencial novo ou usuado, por favor, selecione a melhor opção para você.
+chatId:    1418881124908214
+messageId: null
+buttons: 
+  - 
+    type:   postback
+    label:  NOVO
+    value:  0.8
+    answer: 
+    alert:  false
+    style:  danger
+  - 
+    type:   postback
+    label:  USADO
+    value:  0.5
+    answer: 
+    alert:  false
+    style:  danger
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186565461
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kPJVVipP6BS5ggX
+  seq:  30526
+  text: Sair
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:22:45 GMT+0000
+transport: facebook
+inbound:   true
+content:   Sair
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Obrigado por ter entrado em contato com a Caixa! 
+     :D Fiquei muito feliz em receber você nesse canal, até a próxima. <3
+     
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523186576563
+message: 
+  mid:  mid.$cAACM2r9d7wxo1kP0s1ipP6skKqZV
+  seq:  30531
+  text: quero saber o resultado de pagamento do PIS
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:22:56 GMT+0000
+transport: facebook
+inbound:   true
+content:   quero saber o resultado de pagamento do PIS
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: Para ter direito, o trabalhador precisa:
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: (y) Estar cadastrado no PIS, mínimo cinco anos;
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: (y) Ter remuneração mensal média de até dois salários mínimos durante o ano-base;
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: (y) Atividade remunerada para Pessoa Jurídica, durante pelo menos 30 dias, consecutivos ou não, no ano-base;
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: (y) Ter seus dados informados pelo empregador (Pessoa Jurídica) corretamente na Relação Anual de Informações Sociais.
+
+[31m(#100) Message cannot be empty, must provide valid attachment or text[39m
+8 Apr 11:22:59 - [error] [chatbot-facebook-node:ddd639d.263eec8] (#100) Message cannot be empty, must provide valid attachment or text
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      inline-buttons
+name:      Botão Sim/Não
+content:   Washington, está disponível o Calendário 2017/2018 do PIS, quer verificar a data de recebimento? :D
+chatId:    1418881124908214
+messageId: null
+buttons: 
+  - 
+    type:   postback
+    label:  Sim
+    value:  SIM
+    answer: 
+    alert:  false
+    style:  default
+  - 
+    type:   postback
+    label:  Não
+    value:  Não
+    answer: 
+    alert:  false
+    style:  primary
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523186591868
+sender: 
+  id: 1418881124908214
+message: 
+  text: Não
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 11:23:11 GMT+0000
+transport: facebook
+inbound:   true
+content:   Não
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Obrigado por ter entrado em contato com a Caixa! 
+     :D Fiquei muito feliz em receber você nesse canal, até a próxima. <3
+     
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+recipient: 
+  id: 235496263660519
+timestamp: 1523190451935
+sender: 
+  id: 1418881124908214
+message: 
+  text: Habitação
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 12:27:31 GMT+0000
+transport: facebook
+inbound:   true
+content:   Habitação
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: Como quer iniciar seu atendimento? Escolha uma das opções para encontrar um financiamento que é a sua cara.
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Valor do Imóvel
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://imagens.revista.zapcorp.com.br/wp-content/uploads/2018/01/financiamento.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor do Imóvel
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor do Financiamento
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.chavesnamao.com.br/noticias/wp-content/uploads/2015/12/o-imovel-desejado-cabe-no-seu-bolso-confira-5-dicas-para-n%C3%A3o-se-endividar.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor do Financiamento
+        value:  Financiamento
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor da Prestação
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.clickhabitacao.com.br/wp-content/uploads/2016/05/diminuir-prestacao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor da Prestacao
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Valor da Renda
+    subtitle: Selecione o botão abaixo
+    imageUrl: https://www.mixvale.com.br/wp-content/uploads/2018/02/dinheiro-1-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Valor da Renda
+        value:  Imovel
+        answer: 
+        alert:  false
+        style:  default
+chatId:      1418881124908214
+messageId:   null
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523190465153
+message: 
+  mid:  mid.$cAACM2r9d7wxo1n9KgVipToCkE-hK
+  seq:  30555
+  text: regitrar Imóvel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 12:27:45 GMT+0000
+transport: facebook
+inbound:   true
+content:   regitrar Imóvel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Washington,
+    Digite o valor do imóvel, por favor!
+    (Ex: 180000)
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523190476001
+message: 
+  mid:  mid.$cAACM2r9d7wxo1n904VipTos0ARpE
+  seq:  30558
+  text: jaflkdjlkdsajflkdsjfdsf imóvel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 12:27:56 GMT+0000
+transport: facebook
+inbound:   true
+content:   jaflkdjlkdsajflkdsjfdsf imóvel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      inline-buttons
+name:      Novo/Usado
+content:   Por enquanto, só consigo fazer uma simulação para imóvel residencial novo ou usuado, por favor, selecione a melhor opção para você.
+chatId:    1418881124908214
+messageId: null
+buttons: 
+  - 
+    type:   postback
+    label:  NOVO
+    value:  0.8
+    answer: 
+    alert:  false
+    style:  danger
+  - 
+    type:   postback
+    label:  USADO
+    value:  0.5
+    answer: 
+    alert:  false
+    style:  danger
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523190481563
+message: 
+  mid:  mid.$cAACM2r9d7wxo1n-Km1ipTpCo_eNp
+  seq:  30561
+  text: kajdsflkjsadlkfjdsalkfj Imóvel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 12:28:01 GMT+0000
+transport: facebook
+inbound:   true
+content:   kajdsflkjsadlkfjdsalkfj Imóvel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Washington,
+    Digite o valor do imóvel, por favor!
+    (Ex: 180000)
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+8 Apr 12:28:35 - [info] Stopping flows
+8 Apr 12:28:40 - [info] Stopped flows
+8 Apr 12:28:40 - [info] Starting flows
+[33mTelegram Bot XBot will NOT be launched, environment is development[39m
+MongoNode {
+  id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  _closeCallbacks: [],
+  name: 'MongoDB NeoBot',
+  wires: [],
+  _wireCount: 0,
+  send: [Function],
+  credentials: { user: 'neo', password: 'neo123' },
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot' }
+
+
+
+
+
+ { id: '38ec677c.07b518',
+  type: 'mongodb',
+  z: '',
+  hostname: '127.0.0.1',
+  port: '27017',
+  db: 'neobot',
+  name: 'MongoDB NeoBot',
+  _users: [ 'e81762e5.d7aef' ] }
+mongodb://neo:neo123@127.0.0.1:27017/neobot
+[32mFacebook Messenger Bot Xbot will be launched, environment is development[39m
+8 Apr 12:28:40 - [info] Started flows
+
+[90m------ WebHooks for FACEBOOK----------------[39m
+[92mhttp://localhost:8080/redbot/facebook/test[39m[90m - [39m[37mUse this to test that your SSL (with certificate or ngrok) is working properly, should answer "ok"[39m
+[92mhttp://localhost:8080/redbot/facebook[39m[90m - [39m[37mUse this in the "Webhooks" section of the Facebook App ("Edit Subscription" button)[39m
+
+[92mChat server started, transport: [39m[37mfacebook[39m
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523190532277
+message: 
+  mid:  mid.$cAACM2r9d7wxo1oBQtVipTsIs6INm
+  seq:  30564
+  text: fadskjflksafdjlkdsaf imóvel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 12:28:52 GMT+0000
+transport: facebook
+inbound:   true
+content:   fadskjflksafdjlkdsaf imóvel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Washington,
+    Digite o valor do imóvel, por favor!
+    (Ex: 180000)
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523190538916
+message: 
+  mid:  mid.$cAACM2r9d7wxo1oBqpFipTsibX6cs
+  seq:  30567
+  text: imovel
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 12:28:58 GMT+0000
+transport: facebook
+inbound:   true
+content:   imovel
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:      message
+content: 
+  """
+    Washington,
+    Digite o valor do imóvel, por favor!
+    (Ex: 180000)
+  """
+chatId:    1418881124908214
+messageId: null
+inbound:   false
+options: 
+
+[38;5;214m-- INBOUND MESSAGE --[39m
+sender: 
+  id: 1418881124908214
+recipient: 
+  id: 235496263660519
+timestamp: 1523190541927
+message: 
+  mid:  mid.$cAACM2r9d7wxo1oB2Z1ipTsuc9Z_v
+  seq:  30570
+  text: sair
+
+[38;5;214m-- RELAY MESSAGE --[39m
+type:      message
+chatId:    1418881124908214
+userId:    1418881124908214
+ts:        Sun Apr 08 2018 12:29:01 GMT+0000
+transport: facebook
+inbound:   true
+content:   sair
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+chatId:  1418881124908214
+type:    message
+content: 
+  """
+    Obrigado por ter entrado em contato com a Caixa! 
+     :D Fiquei muito feliz em receber você nesse canal, até a próxima. <3
+     
+  """
+
+[38;5;214m-- OUTBOUND MESSAGE --[39m
+type:        generic-template
+aspectRatio: horizontal
+sharable:    true
+elements: 
+  - 
+    title:    Financiamento Habitacional
+    subtitle: A Caixa está ao seu lado para realizar o sonho da casa própria.
+    imageUrl: http://www.blogcongesa.com.br/wp-content/uploads/2016/12/SEGUNDA-VIA-BOLETO-HABITAC%CC%A7A%CC%83O-CAIXA-ECONOMICA-%E2%80%93-PAGAR-BOLETO-HABITAC%CC%A7A%CC%83O-1.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Habitação
+        value:  Habitação
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Cartões Caixa
+    subtitle: Suas necessidades evoluíram. Nossos cartões também.
+    imageUrl: https://i0.wp.com/www.dsvc.com.br/wp-content/uploads/2017/01/Cartoes-CAIXA.png
+    buttons: 
+      - 
+        type:   postback
+        label:  Cartões
+        value:  Cartões
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Loterias Caixa
+    subtitle: Confira os Últimos resultados
+    imageUrl: http://www.newsrondonia.com.br/imagensNoticias/image/00(775).jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Loterias
+        value:  Loterias
+        answer: 
+        alert:  false
+        style:  default
+  - 
+    title:    Benefícios Sociais
+    subtitle: Descubra todos os benefícios que a Caixa pode oferecer a você.
+    imageUrl: http://calendariobolsafamilia2015.com.br/wp-content/uploads/2017/03/cartao-cidadao.jpg
+    buttons: 
+      - 
+        type:   postback
+        label:  Abono do PIS
+        value:  PIS
+        answer: 
+        alert:  false
+        style:  default
+      - 
+        type:   postback
+        label:  Bolsa Família
+        value:  Bolsa
+        answer: 
+        alert:  false
+        style:  
+chatId:      1418881124908214
+messageId:   null
+

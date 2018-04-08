@@ -1,0 +1,14 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-contrib-chatbot": "^0.9.24",
+        "node-red-contrib-date": "0.0.2",
+        "node-red-contrib-facebook-messenger-writer": "0.0.3",
+        "node-red-contrib-string": "^0.2.2",
+        "node-red-contrib-telegrambot": "^2.7.3",
+        "node-red-mongodb": "0.0.18",
+        "node-red-node-mongodb": "0.0.14"
+    }
+}
